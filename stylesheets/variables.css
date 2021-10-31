@@ -1,8 +1,12 @@
 :root{
     --space: 16px;
+    --half-space: calc(var(--space) / 2);
     --primary: #004181;
     --black: #000;
     --white: #fff;
     --title-font-size: 1.75rem;
     --title-font-weight: 600;
+    --subtitle-font-size: 1.5rem;
+    --subtitle-font-weight: 500;
+    --time: .25s;
 }

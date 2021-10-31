@@ -25,6 +25,8 @@
                 </a>
 
                 <h1 class="header__title">Beers</h1>
+
+                <span class="header__date"><?php echo date("d/m/Y (h:i)") ?></span>
             </div>
         </header>
 

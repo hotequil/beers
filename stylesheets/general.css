@@ -19,3 +19,9 @@ html, body{
     margin: 0 auto;
     height: 100%;
 }
+
+.subtitle{
+    font-weight: var(--subtitle-font-weight);
+    font-size: var(--subtitle-font-size);
+    color: var(--black);
+}

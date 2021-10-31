@@ -7,9 +7,13 @@
     width: 35px;
 }
 
-.header .header__title{
+.header .header__title, .header .header__date{
     color: var(--white);
+}
+
+.header .header__title{
     font-size: var(--title-font-size);
+    flex-grow: 1;
     font-weight: var(--title-font-weight);
 }
 

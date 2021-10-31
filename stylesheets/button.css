@@ -1,0 +1,18 @@
+.button{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: var(--space);
+    background-color: var(--primary);
+    border-radius: var(--half-space);
+    transition: opacity var(--time);
+}
+
+.button:hover, .button:focus{
+    opacity: .9;
+}
+
+.button:active{
+    opacity: .8;
+}
