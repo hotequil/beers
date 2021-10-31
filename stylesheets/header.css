@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    background-color: var(--black);
+}
+
+.header .header__image{
+    width: 35px;
+}
+
+.header .header__title{
+    color: var(--white);
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+}
+
+.header .header__content{
+    display: flex;
+    align-items: center;
+    column-gap: var(--space);
+    padding-top: var(--space);
+    padding-bottom: var(--space);
+}

@@ -1,0 +1,14 @@
+.footer{
+    height: auto;
+}
+
+.footer .footer__text{
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space);
+    border-radius: var(--space) var(--space) 0 0;
+}
