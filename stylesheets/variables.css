@@ -9,4 +9,6 @@
     --subtitle-font-size: 1.5rem;
     --subtitle-font-weight: 500;
     --time: .25s;
+    --field-space: 4px;
+    --grey: #959595;
 }
