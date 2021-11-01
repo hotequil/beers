@@ -11,6 +11,10 @@
     color: var(--white);
 }
 
+.header .header__date{
+    text-align: right;
+}
+
 .header .header__title{
     font-size: var(--title-font-size);
     flex-grow: 1;

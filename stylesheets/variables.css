@@ -11,4 +11,5 @@
     --time: .25s;
     --field-space: 4px;
     --grey: #959595;
+    --border: 2px solid var(--black);
 }
