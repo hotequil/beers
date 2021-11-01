@@ -1,0 +1,24 @@
+.table{
+    border-collapse: separate;
+    border-spacing: var(--half-space);
+}
+
+.table .table__column{
+    --column-height: 72px;
+
+    border: var(--border);
+    padding: var(--half-space);
+    text-align: center;
+    font-size: 1rem;
+    border-radius: var(--half-space);
+    min-height: var(--column-height);
+    vertical-align: middle;
+    height: var(--column-height);
+}
+
+.table .table__column.table__column--head{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--black);
+}
